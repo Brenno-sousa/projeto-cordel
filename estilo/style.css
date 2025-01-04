@@ -35,6 +35,9 @@ header a {
    font-weight: bold;
    text-decoration: none;
 }
+header p {
+   padding-bottom: 30px;
+}
 header a:hover,
 footer a:hover {
    text-decoration: underline;
@@ -49,18 +52,19 @@ section {
 section p {
    padding: 5px;
 }
-#img1{
-   background: white url('../imgs/background001.jpg') center right no-repeat fixed;
+#img1 {
+   background: white url("../imgs/background001.jpg") center right no-repeat
+      fixed;
 }
-#img2{
-   background: white url('../imgs/background002.jpg') right center fixed;
+#img2 {
+   background: white url("../imgs/background002.jpg") right center fixed;
 }
 #img1,
 #img2 {
    box-shadow: inset 2px 2px 20px black;
    background-size: cover;
 }
-.imagem p{
+.imagem p {
    max-width: 450px;
    background-color: #000b00a5;
    color: white;
@@ -78,8 +82,8 @@ footer a {
    text-decoration: none;
 }
 
-@media (max-width: 570px){
-   header h1{
+@media (max-width: 570px) {
+   header h1 {
       font-size: 4rem;
    }
    p {
