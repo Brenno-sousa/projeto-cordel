@@ -13,7 +13,8 @@
    padding: 0;
    font-size: 1em;
 }
-html, body {
+html,
+body {
    font-family: var(--font1);
    min-height: 100vh;
    background-color: darkgrey;
@@ -29,7 +30,7 @@ header h1 {
    padding-top: 50px;
    font-variant: small-caps;
 }
-header p{
+header p {
    padding-bottom: 50px;
 }
 a {
@@ -40,41 +41,39 @@ a {
 a:hover {
    text-decoration: underline;
 }
-section{
+section {
    font-family: var(--font3);
    font-size: 3.5vw;
    padding: 10vh 30px;
-   
+   line-height: 2em;
    padding: 10vh 30px 10vh 30px;
 }
 section p {
-   padding: 5px;
-   line-height: 2em;
+   padding-bottom: 2em;
 }
-.normal{
+.normal {
    background-color: white;
 }
-.imagem{
-   background: center right no-repeat fixed;
+.imagem {
+   background: right center no-repeat fixed;
    background-size: cover;
+   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.39);
 }
-.imagem p{
-   display: inline-block;
-   padding: 5px;
-   background-color: #0002006c;
-   color: white;
-}
+
 #img1 {
-   background-image: url('../imgs/background001.jpg');
+   background-image: url("../imgs/background001.jpg");
 }
 #img2 {
    background-image: url("../imgs/background002.jpg");
 }
-#img1,
-#img2 {
-   box-shadow: inset 1px 1px 10px black;  
+.imagem p {
+   display: inline-block;
+   padding: 5px;
+   background-color: #00020054;
+   color: white;
+   border-radius: 10px;
+   text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
-
 
 footer {
    background-color: black;
